@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.background-yellow {
+  background-color: yellow;
+}
+
+.background-blueviolet {
+  background-color: blueviolet;
+}
+
+/* element has full height */
+.full-height {
+  height: 100%;
+}
+
+/* declare the flexbox */
+.column-container {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+/* declare a fixed size element */
+.flex-fixed-size {
+  flex: 0 1 auto;
+  /* The above is shorthand for:
+  flex-grow: 0,
+  flex-shrink: 1,
+  flex-basis: auto
+  */
+}
+
+/* declare an expanded element */
+.flex-expanded-size {
+  flex: 1 1 auto;
+}
